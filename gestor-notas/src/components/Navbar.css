@@ -1,0 +1,95 @@
+
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar ul li {
+    color: white;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .AgregarNota {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    color: rgb(44, 2, 43);
+    
+  }
+  
+  .AgregarNota h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(97, 5, 94);
+  }
+  
+  .AgregarNota div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .AgregarNota label {
+    width: 100px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .AgregarNota input[type="text"],
+  .AgregarNota textarea {
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100px;
+  }
+  
+  .AgregarNota textarea {
+    resize: none; /* Para que no se pueda cambiar el tamaño */
+  }
+  
+  .AgregarNota input[type="file"] {
+    flex-grow: 1;
+  }
+  
+  .AgregarNota button {
+    background-color: #4b014b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    align-self: center; /* Para centrar el botón */
+  }
+  
+  .AgregarNota button:hover {
+    background-color: #590672;
+  }
+  

@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(189, 238, 238);
+}
+
+h1, h2 {
+  color: #333;
+}
+.AgregarNota{
+  background-color: rgb(250, 186, 114);
+  width: 400px;
+  padding: 18px;
+  text-align: center;
+
+  
+}
+
+
+form {
+  margin: 20px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+
+
+
+
+.Notas {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: rgb(44, 2, 43);
+}
+
+.notas-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.nota-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  background-color:  rgb(250, 186, 114);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(44, 2, 43);
+}
+
+.nota-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.nota-card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.nota-card img {
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.ver-nota-btn {
+  align-self: center;
+  padding: 10px 20px;
+  background-color: #4b014b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ver-nota-btn:hover {
+  background-color: #590672;
+}
+
